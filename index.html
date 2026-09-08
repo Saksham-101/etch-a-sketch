@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button>Click me!</button>
+    <div class="container">
+    </div>
+</body>
+</html>
+<style>
+    .container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 640px;
+        height: 640px;
+    }
+    
+    .child {
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px;
+        background-color: grey;
+        border: 1px solid white;
+    }
+
+    .squares {
+        background-color: grey;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+</style>
